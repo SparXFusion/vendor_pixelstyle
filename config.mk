@@ -27,7 +27,10 @@ PRODUCT_PACKAGES += \
     Longshot \
     org.pixelexperience.screenshot.xml \
     privapp-permissions-lawnchair.xml \
-    OPScreenRecorder
+    OPScreenRecorder \
+    GalleryGO \
+    ViaBrowser \
+    RetroMusicPlayer
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
